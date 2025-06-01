@@ -1,0 +1,16 @@
+# ServiceNow specific files
+*.xml
+*.json
+*.csv
+*.xls
+*.xlsx
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
