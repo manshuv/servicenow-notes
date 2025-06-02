@@ -33,6 +33,8 @@ So, this may feel a bit weird at first but create a new role for the write opera
 
 By doing this you will ensure that all other users who don't have this role now become read-only users. 
 
+**Write to all fieds on a table** 
+
 You can test this out by giving creating an ACL with the following attributes:
 
 - Operation - write 
@@ -42,6 +44,8 @@ You can test this out by giving creating an ACL with the following attributes:
 And then assign this role to only the users who you want to have write access to the table. 
 
 Now, assign this role to a user and you will see that they have the entire access to the table but then impersonate with another user and you'll see that while they can access the table, they can't write to it. 
+
+**Create to all fields on a table** 
 
 Now, what if you wanted to restrict creation of trees. You can create a new ACL with the following attributes:
 
@@ -53,6 +57,8 @@ And then assign this role to only the users who you want to have create access t
 
 Now, assign this role to a user and you will see that they can create records in the table but then impersonate with another user and you'll see that while they can access the table, and edit records, they can't create records in it. 
 
+
+**Read to a specific field on a table** 
 
 Now finally, let's go back to our Airbnb analogy and say that we need to protect the Wifi. So, we set a password on the Wifi, and now only people who know the password can access the Wifi. 
 
@@ -66,7 +72,11 @@ And then assign this role to only the users who you want to have read access to 
 
 Now you will see that only people with this role can see the field and no one else can see it. 
 
+**Write to a specific field on a table** 
+
 Now, I thought that the fact that I created a read role would mean that while the person who got the read role will be able to see the record they won't be able to edit it. This is in fact not true because till the time you explicitly create a write rule for that field the edit will not be blocked. 
+
+**Final Note**
 
 Finally, I want to point out that giving a person the most restricted access to a table without giving them any other access does nothing for them. So you may think that you may give write access on the sensitive field to a person and that in turn will give them all the other access to the table but this is like giving someone a Wifi password but not the house address or the computer passcode so they won't be able to use this info at all. 
 
