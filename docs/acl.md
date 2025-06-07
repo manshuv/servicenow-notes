@@ -1,6 +1,6 @@
 # ServiceNow Access Control Rules (ACLs)
 
-Access Control Rules (ACLs) in ServiceNow are used to control access to records, fields, and tables. They determine what users can and cannot do with data in the system.
+Access Control Rules (ACLs) in ServiceNow are used to control access to tables, fields and records. They determine what users can and cannot do with data in the system.
 
 ## What role is needed to create ACLs?
 
