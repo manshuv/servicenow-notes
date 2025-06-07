@@ -16,6 +16,16 @@ Let's say you are going to an Airbnb. The host has a computer with no passcode, 
 
 As long as you have the address of the place, you can go to the place, and use the Wifi. 
 
+## What will you learn in this Youtube video? 
+
+1. You will first learn where to look for the ACLs. 
+2. You will learn how to create ACLs for a custom table. 
+3. How to give read access to a table. 
+4. How to give write access to a table. 
+5. How to give create access to a table. 
+6. How to give read access to a specific field on a table. 
+7. How to give write access to a specific field on a table. 
+
 When you create a custom table -- it will create four ACLs for you:
 
 - Read
