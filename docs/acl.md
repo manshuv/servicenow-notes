@@ -20,11 +20,11 @@ As long as you have the address of the place, you can go to the place, and use t
 
 1. You will first learn where to look for the ACLs. 
 2. You will learn how to create ACLs for a custom table. 
-3. How to give read access to a table. 
+3. How to give read access to a table. | x_snc_bonsainow_trees.* | write | x_snc_bonsainow.write_trees
 4. How to give write access to a table. 
-5. How to give create access to a table. 
-6. How to give read access to a specific field on a table. 
-7. How to give write access to a specific field on a table. 
+5. How to give create access to a table. | x_snc_bonsainow_trees.* | create | x_snc_bonsainow.create_trees
+6. How to give read access to a specific field on a table. x_snc_bonsainow_treename.purchase_price | read | x_snc_bonsainow.read_trees
+7. How to give write access to a specific field on a table.  x_snc_bonsainow_treename.purchase_price | write | x_snc_bonsainow.write_trees
 
 ## What are the four ACLs that are created when you create a custom table? 
 
