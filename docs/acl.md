@@ -26,6 +26,8 @@ As long as you have the address of the place, you can go to the place, and use t
 6. How to give read access to a specific field on a table. 
 7. How to give write access to a specific field on a table. 
 
+## What are the four ACLs that are created when you create a custom table? 
+
 When you create a custom table -- it will create four ACLs for you:
 
 - Read
